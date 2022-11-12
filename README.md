@@ -8,6 +8,8 @@ Seminario de Tecnologías de Información
 
 ### Proyecto Encriptador - Desencriptador
 
+**Link de la aplicación:** https://keyzerhs.github.io/encriptador_desencriptador/
+
 **Estudiante:** Keyzer Joaquín Hernández Sales
 
 **Carné:** 0904-18-8234
