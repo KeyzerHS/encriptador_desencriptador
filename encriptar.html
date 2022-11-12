@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Encriptar</title>
+        <link rel="icon" href="./img/encrypt.png">
+        <link rel="stylesheet" href="./css/encriptar.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    </head>
+
+    <body class="main">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <a class="navbar-brand" href="index.html"><img src="img/umg.png" alt="Logo" width="30"
+                            class="d-inline-block align-text-top"> Seminario</a>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page">|</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./encriptar.html">Encriptar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page">|</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./desencriptar.html">Desencriptar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <h1>Encriptar Mensaje</h1>
+            <div class="row" style="margin-top: 20px">
+                <div class="col">
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Introduce el texto que quieres encriptar"
+                            id="textEncriptar" style="width: 500px; height: 350px"></textarea>
+                        <label for="textEncriptar">Introduce el texto que quieres encriptar</label>
+                    </div>
+                    <br>
+                    <button id="btnEncriptar" type="button" class="btn btn-outline-dark btn-lg"
+                        style="width:200px; height: 50px; margin-left: 150px;">Encriptar</button>
+                </div>
+                <div class="col">
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Resultado" id="TxtResultado"
+                            style="width: 500px; height: 350px" readonly></textarea>
+                        <label for="TxtResultado">Resultado</label>
+                    </div>
+                    <br>
+                    <button id="btnCopiar" type="button" class="btn btn-outline-dark btn-lg"
+                        style="width:200px; height: 50px; margin-left: 150px;" disabled>Copiar</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="./js/encriptar.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </body>
+</html>

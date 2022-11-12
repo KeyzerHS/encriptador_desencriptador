@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background: linear-gradient(90deg, #06d6a0 0%, #c4fff9 50%, #06d6a0 100%);
+}
+
+h1 {
+  color: rgb(17, 65, 104);
+  text-align: center;
+}
+
+.form-control {
+  box-sizing: border-box;
+  box-shadow: 7px 7px 0px 0px rgba(42, 157, 143, 0.75);
+}
+
+.container {
+  margin-top: 20px;
+}
